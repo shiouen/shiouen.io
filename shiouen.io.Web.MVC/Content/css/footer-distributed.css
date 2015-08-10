@@ -1,0 +1,39 @@
+.footer-distributed {
+    background-color: #196666;
+    display: block;
+    letter-spacing: 1px;
+    padding: 15px 75px;
+}
+
+.footer-wrapper {
+    display: flex;   
+    height: 35px;
+    width: auto;
+}
+
+.footer-right {
+    float: right;
+    margin: auto 0px auto auto;
+}
+
+.footer-left {
+    float: left;
+    font: 600 14px sans-serif;
+    margin: auto auto auto 0px;
+}
+
+.footer-distributed .footer-left p {
+	color: #292C2F;
+    margin: 0px;
+}
+
+.footer-right a > i {
+	background-color: #33383b;
+	border-radius: 50%;
+    color: #ffffff;
+    height: 35px;
+	line-height: 35px;
+    margin-left: 5px;
+    width: 35px;
+    text-align: center;
+}

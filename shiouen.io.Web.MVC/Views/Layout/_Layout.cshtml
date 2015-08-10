@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="Shiouen Development">
+        <link rel="shortcut icon" href="@Url.Content("~/Content/images/fav.png")">
+
+        <title>@ViewBag.Title</title>
+
+        @Styles.Render("~/Content/css/footer-distributed.css")
+        @Styles.Render("~/Content/css/site.css")
+        @Styles.Render("~/Content/css/bootstrap.css")
+        @Styles.Render("~/Content/css/font-awesome.min.css")
+        @Styles.Render("~/Content/css/jquery.fancybox.css")
+    </head>
+    <body>
+        @RenderBody()
+
+        @Scripts.Render("~/Content/scripts/jquery-1.10.2.min.js")
+        @Scripts.Render("~/Content/scripts/classie.js")
+        @Scripts.Render("~/Content/scripts/bootstrap.min.js")
+        @Scripts.Render("~/Content/scripts/smoothscroll.js")
+        @Scripts.Render("~/Content/scripts/jquery.stellar.min.js")
+        @Scripts.Render("~/Content/scripts/jquery.fancybox.js")
+        @Scripts.Render("~/Content/scripts/site.js")
+    </body>
+</html>

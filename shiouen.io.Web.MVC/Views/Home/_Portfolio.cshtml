@@ -1,0 +1,124 @@
+﻿@using shiouen.io.Web.MVC.Helpers
+
+        <!-- PORTFOLIO SECTION -->
+        <section id="portfolio">
+            <div id="portfoliowrap">
+                <div class="container">
+                    <div class="row">
+                        <h1>SOME OF MY LATEST WORKS</h1>
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+                            <div class="project-wrapper">
+                                <div class="project">
+                                    <div class="photo-wrapper">
+                                        <div class="photo">
+                                            @if (Html.FileExists(Server.MapPath("~/Content/images/gtx960-reflected.jpg"))) {
+                                                <a class="fancybox" href="@Url.Content("~/Content/images/gtx960-reflected.jpg")"><img class="img-responsive" src="@Url.Content("~/Content/images/gtx960-reflected.jpg")" alt=""></a>
+                                            }
+                                        </div>
+                                        <div class="overlay"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- col-lg-4 -->
+
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+                            <div class="project-wrapper">
+                                <div class="project">
+                                    <div class="photo-wrapper">
+                                        <div class="photo">
+                                            @if (Html.FileExists(Server.MapPath("assets/img/portfolio/port05.jpg"))) {
+                                                <a class="fancybox" href="assets/img/portfolio/port05.jpg"><img class="img-responsive" src="assets/img/portfolio/port05.jpg" alt=""></a>
+                                            }
+                                        </div>
+                                        <div class="overlay"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- col-lg-4 -->
+
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+                            <div class="project-wrapper">
+                                <div class="project">
+                                    <div class="photo-wrapper">
+                                        <div class="photo">
+                                            @if (Html.FileExists(Server.MapPath("~/Content/images/shiouen-website-1280x850.jpg"))) {
+                                                <a class="fancybox" href="@Url.Content("~/Content/images/shiouen-website-1280x850.jpg")"><img class="img-responsive" src="@Url.Content("~/Content/images/shiouen-website-1280x850.jpg")" alt=""></a>
+                                            }
+                                        </div>
+                                        <div class="overlay"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- col-lg-4 -->
+                    </div><!-- /row -->
+
+                    <div class="row mt">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+                            <div class="project-wrapper">
+                                <div class="project">
+                                    <div class="photo-wrapper">
+                                        <div class="photo">
+                                            @if (Html.FileExists(Server.MapPath("assets/img/portfolio/port01.jpg"))) {
+                                                <a class="fancybox" href="assets/img/portfolio/port01.jpg"><img class="img-responsive" src="assets/img/portfolio/port01.jpg" alt=""></a>
+                                            }
+                                        </div>
+                                        <div class="overlay"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- col-lg-4 -->
+
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+                            <div class="project-wrapper">
+                                <div class="project">
+                                    <div class="photo-wrapper">
+                                        <div class="photo">
+                                            @if (Html.FileExists(Server.MapPath("assets/img/portfolio/port02.jpg"))) {
+                                                <a class="fancybox" href="assets/img/portfolio/port02.jpg"><img class="img-responsive" src="assets/img/portfolio/port02.jpg" alt=""></a>
+                                            }
+                                        </div>
+                                        <div class="overlay"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- col-lg-4 -->
+
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 desc">
+                            <div class="project-wrapper">
+                                <div class="project">
+                                    <div class="photo-wrapper">
+                                        <div class="photo">
+                                            @if (Html.FileExists(Server.MapPath("assets/img/portfolio/port03.jpg"))) {
+                                                <a class="fancybox" href="assets/img/portfolio/port03.jpg"><img class="img-responsive" src="assets/img/portfolio/port03.jpg" alt=""></a>
+                                            }
+                                        </div>
+                                        <div class="overlay"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><!-- col-lg-4 -->
+                    </div><!-- /row -->
+                </div><!-- /container -->
+                <div class="container">
+                    <div class="row mt centered">
+                        <h1>THE CREATION PROCESS</h1>
+                        <div class="col-lg-4 proc">
+                            <i class="fa fa-coffee"></i>
+                            <h3>The Meeting</h3>
+                            <p>It is necessary that both the customer and I have a mutual view of the project. We discuss the how, when and where of every single aspect of the project before I throw myself onto the creation process.</p>
+                        </div>
+                        <div class="col-lg-4 proc">
+                            <i class="fa fa-cogs"></i>
+                            <h3>The Project</h3>
+                            <p>There is lots of room for creativity and new ideas in every project. The customer provides the context and new ideas, I provide a listening, yet critical, ear.</p>
+                        </div>
+                        <div class="col-lg-4 proc">
+                            <i class="fa fa-heart"></i>
+                            <h3>The Product</h3>
+                            <p>A satisfied customer with an even more satisfying product is the core concern of every project.</p>
+                        </div>
+
+                    </div><!-- /row -->
+                </div><!-- /container -->
+            </div><!-- /Portfoliowrap -->
+        </section>
